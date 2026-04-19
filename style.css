@@ -1,14 +1,34 @@
-/* LIGHT MODE */
+/* Light Mode */
 @media (prefers-color-scheme: light) {
+
     .stApp {
         background: linear-gradient(135deg, #f8fafc, #e0e7ff);
+        color: #111827; 
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #4d525c;
+    }
+
+    p, label, span, div {
+        color: #374151;
     }
 }
 
-/* DARK MODE */
+/* Dark Mode */
 @media (prefers-color-scheme: dark) {
+
     .stApp {
         background: linear-gradient(135deg, #050505, #1e1b4b);
+        color: #f9fafb;  
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #f9fafb;
+    }
+
+    p, label, span, div {
+        color: #d1d5db;
     }
 }
 
