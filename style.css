@@ -1,7 +1,17 @@
 
 /* Background */
-.main {
-    background: linear-gradient(135deg, #eef2ff, #f8fafc);
+/* LIGHT MODE */
+@media (prefers-color-scheme: light) {
+    .stApp {
+        background: linear-gradient(135deg, #f8fafc, #e0e7ff);
+    }
+}
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+    .stApp {
+        background: linear-gradient(135deg, #050505, #1e1b4b);
+    }
 }
 
 
