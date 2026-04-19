@@ -1,0 +1,227 @@
+
+/* Background */
+.main {
+    background: linear-gradient(135deg, #eef2ff, #f8fafc);
+}
+
+
+/* HEADER ANIMATION */
+.header {
+    padding: 25px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #29c3ce, #5ae4b1);
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+}
+
+.header:hover {
+    transform: scale(1.01);
+}
+
+
+/* BUTTON BASE */
+.stButton>button {
+    background: linear-gradient(135deg, #8ae4eb, #13b6c2);
+    color: white;
+    border-radius: 15px;
+    height: 3.2em;
+    font-weight: 600;
+    border: none;
+    font-size: 28px;
+    font-style: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(49, 189, 253, 0.4);
+}
+
+/* HOVER EFFECT */
+.stButton>button:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0px 12px 25px rgba(49, 189, 253, 0.6);
+    background: linear-gradient(135deg, #19beca, #5ddaac);
+}
+
+/* CLICK EFFECT */
+.stButton>button:active {
+    transform: scale(0.97);
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+}
+
+/* ICON ANIMATION */
+.icon {
+    display: inline-block;
+    transition: transform 0.8s ease;
+}
+
+.icon:hover {
+    transform: rotate(8deg) scale(1.2);
+}
+/* FADE IN */
+.fade-in {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Metric Box */
+.metric-box {
+    background: linear-gradient(115deg, #74aeb1, #42c494);
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* title */
+.metric-title {
+    font-size: 20px;
+    opacity: 0.85;
+    margin-bottom: 5px;
+}
+
+/* metric value */
+.metric-value {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.metric-box:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0px 12px 30px rgba(161, 93, 93, 0.856);
+}
+
+/* Section Title */
+.section-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Container Card */
+.input-card {
+    background: linear-gradient(135deg, #117880, #52a587);
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 6px 25px rgba(0,0,0,0.05);
+    margin-bottom: 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.input-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 35px rgba(0,0,0,0.1);
+}
+
+/* Label Styling */
+label {
+    font-weight: 600 !important;
+    color: #28c5ec !important;
+}
+
+/* Selectbox */
+.stSelectbox div[data-baseweb="select"] {
+    border-radius: 10px !important;
+    border: 1px solid #5cb6eb !important;
+    transition: all 0.2s ease;
+}
+
+.stSelectbox div[data-baseweb="select"]:hover {
+    border-color: #48c7dd !important;
+}
+
+/* Slider */
+.stSlider > div {
+    padding-top: 10px;
+}
+
+.stSlider [role="slider"] {
+    background-color: #57e9d5 !important;
+}
+
+/* Number input (kalau ada nanti) */
+.stNumberInput input {
+    border-radius: 10px !important;
+}
+
+/* Spacing antar elemen */
+.block-container {
+    padding-top: 2rem;
+}
+
+/* Divider line */
+.section-divider {
+    height: 1px;
+    background: #e5e7eb;
+    margin: 20px 0;
+}
+
+/* PERSONA CARD BASE */
+.persona-card {
+    padding: 20px;
+    border-radius: 18px;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    transition: all 0.3s ease;
+}
+
+/* TITLE */
+.persona-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+/* HOVER EFFECT */
+.persona-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 30px rgba(0,0,0,0.2);
+}
+
+/* VARIANT COLORS */
+.persona-0 {
+    background: linear-gradient(135deg, #f59e0b, #fbbf24);
+}
+
+.persona-1 {
+    background: linear-gradient(135deg, #29c3ce, #a3e0cb);
+}
+
+.persona-2 {
+    background: linear-gradient(135deg, #3b82f6, #60a5fa);
+}
+
+.persona-3 {
+    background: linear-gradient(135deg, #49db69, #d1ebde);
+}
+
+.persona-error {
+    background: linear-gradient(135deg, #ef4444, #f87171);
+}
+
+/* FOOTER */
+.footer{
+    text-align:center;
+    color:#6b7280;
+    margin-top:40px;
+    font-size:14px;
+}
